@@ -217,6 +217,7 @@ def getLinks(site,url,browserAgent,dt,Flag,proxy):
             data = json.load(data_file)
         data_file.close()
     else:
+        print json.dumps({site:{'URLS':[]}})
         data = json.dumps({site:{'URLS':[]}})
     try:
         if len(proxy)>0:

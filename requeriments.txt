@@ -1,0 +1,6 @@
+ConfigParser
+argparse
+datetime
+simplejson
+logging
+beautifulsoup4==4.5.1
